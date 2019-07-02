@@ -193,7 +193,6 @@ class Calculator(object):
             # handle an error
             self.display.set('error')
             self.calc_value = ''
-			self.expression_field.insert(0, 'error')
    
    
     def clear(self):
